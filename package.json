@@ -4,12 +4,14 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "start": "node src/server.js",
     "dev": "vite",
     "dev-watch": "nodemon -x 'npm run dev'",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "express": "^4.18.2",
     "vue": "^3.3.11"
   },
   "devDependencies": {

@@ -6,7 +6,6 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.join(path.dirname(__filename), "/");
 const publicPath = path.join(__dirname, "../dist/");
 const portNumber = process.env.PORT || 5373;
-console.log(__dirname);
 
 const app = express();
 
